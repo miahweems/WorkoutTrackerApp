@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">WorkoutTrackerApp</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_workout_list">WorkoutListActivity</string>
+    <string name="title_activity_workout_detail">WorkoutDetailActivity</string>
+    <string name="title_activity_add_workout">AddWorkoutActivity</string>
+    <string name="title_activity_workout_session">WorkoutSessionActivity</string>
+    <string name="title_activity_history">HistoryActivity</string>
+    <string name="title_activity_statistics">StatisticsActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_app_navigation">AppNavigation</string>
+    <string name="title_activity_app_nav_host">AppNavHost</string>
+    <string name="title_activity_workout">Workout</string>
+    <string name="title_activity_exercise">Exercise</string>
+    <string name="title_activity_workout_dao">WorkoutDao</string>
+    <string name="title_activity_app_database">AppDatabase</string>
+    <string name="title_activity_workout_repository">WorkoutRepository</string>
+    <string name="title_activity_workout_view_model">WorkoutViewModel</string>
+    <string name="title_activity_edit_workout_screen">EditWorkoutScreen</string>
+    <string name="title_activity_workout_detail_screen">WorkoutDetailScreen</string>
+    <string name="title_activity_start_workout_screen">StartWorkoutScreen</string>
+    <string name="title_activity_exercise_item">ExerciseItem</string>
+    <string name="title_activity_start_workout">StartWorkoutActivity</string>
+    <string name="title_activity_workout_history">WorkoutHistory</string>
+    <string name="title_activity_edit_workout">EditWorkoutActivity</string>
+    <string name="title_activity_view_past_workout">ViewPastWorkoutActivity</string>
+    <string name="title_activity_view_past_workout_screen">ViewPastWorkoutScreen</string>
+    <string name="title_activity_top_nav_bar">TopNavBar</string>
+    <string name="title_activity_auth_manager">AuthManager</string>
+    <string name="title_activity_workout_view_model_factory">WorkoutViewModelFactory</string>
+    <string name="title_activity_exercise_view_model_factory">ExerciseViewModelFactory</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+</resources>

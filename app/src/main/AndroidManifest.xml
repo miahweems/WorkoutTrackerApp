@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WorkoutTrackerApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.theme.home.HomeScreen"
+            android:exported="false"
+            android:label="@string/title_activity_home_screen"
+            android:theme="@style/Theme.WorkoutTrackerApp" />
+        <activity
+            android:name=".ui.theme.viewmodel.ExerciseViewModelFactory"
+            android:exported="false"
+            android:label="@string/title_activity_exercise_view_model_factory"
+            android:theme="@style/Theme.WorkoutTrackerApp" />
+        <activity
+            android:name=".ui.theme.viewmodel.WorkoutViewModelFactory"
+            android:exported="false"
+            android:label="@string/title_activity_workout_view_model_factory"
+            android:theme="@style/Theme.WorkoutTrackerApp" />
+        <activity android:name=".ui.auth.LoginActivity" />
+        <activity android:name=".ui.home.HomeActivity" />
+        <activity
+            android:name=".ui.theme.auth.AuthManager"
+            android:exported="false"
+            android:label="@string/title_activity_auth_manager"
+            android:theme="@style/Theme.WorkoutTrackerApp" />
+        <activity
+            android:name=".ui.components.TopNavBar"
+            android:exported="false"
+            android:label="@string/title_activity_top_nav_bar"
+            android:theme="@style/Theme.WorkoutTrackerApp" />
+        <activity
+            android:name=".ui.theme.history.ViewPastWorkoutScreen"
+            android:exported="false"
+            android:label="@string/title_activity_view_past_workout_screen"
+            android:theme="@style/Theme.WorkoutTrackerApp" />
+        <activity
+            android:name=".ui.theme.history.ViewPastWorkoutActivity"
+            android:exported="false"
+            android:label="@string/title_activity_view_past_workout"
+            android:theme="@style/Theme.WorkoutTrackerApp" />
+        <activity
+            android:name=".ui.theme.workout.EditWorkoutActivity"
+            android:exported="false"
+            android:label="@string/title_activity_edit_workout"
+            android:theme="@style/Theme.WorkoutTrackerApp" />
+        <activity
+            android:name=".data.model.WorkoutHistory"
+            android:exported="false"
+            android:label="@string/title_activity_workout_history"
+            android:theme="@style/Theme.WorkoutTrackerApp" />
+        <activity
+            android:name=".ui.theme.workout.StartWorkoutActivity"
+            android:exported="false"
+            android:label="@string/title_activity_start_workout"
+            android:theme="@style/Theme.WorkoutTrackerApp" />
+        <activity
+            android:name=".ui.theme.components.ExerciseItem"
+            android:exported="false"
+            android:label="@string/title_activity_exercise_item"
+            android:theme="@style/Theme.WorkoutTrackerApp" />
+        <activity
+            android:name=".ui.theme.workout.StartWorkoutScreen"
+            android:exported="false"
+            android:label="@string/title_activity_start_workout_screen"
+            android:theme="@style/Theme.WorkoutTrackerApp" />
+        <activity
+            android:name=".ui.theme.workout.WorkoutDetailScreen"
+            android:exported="false"
+            android:label="@string/title_activity_workout_detail_screen"
+            android:theme="@style/Theme.WorkoutTrackerApp" />
+        <activity
+            android:name=".ui.theme.workout.EditWorkoutScreen"
+            android:exported="false"
+            android:label="@string/title_activity_edit_workout_screen"
+            android:theme="@style/Theme.WorkoutTrackerApp" />
+        <activity
+            android:name=".ui.theme.viewmodel.WorkoutViewModel"
+            android:exported="false"
+            android:label="@string/title_activity_workout_view_model"
+            android:theme="@style/Theme.WorkoutTrackerApp" />
+        <activity
+            android:name=".data.repository.WorkoutRepository"
+            android:exported="false"
+            android:label="@string/title_activity_workout_repository"
+            android:theme="@style/Theme.WorkoutTrackerApp" />
+        <activity
+            android:name=".data.AppDatabase"
+            android:exported="false"
+            android:label="@string/title_activity_app_database"
+            android:theme="@style/Theme.WorkoutTrackerApp" />
+        <activity
+            android:name=".data.dao.WorkoutDao"
+            android:exported="false"
+            android:label="@string/title_activity_workout_dao"
+            android:theme="@style/Theme.WorkoutTrackerApp" />
+        <activity
+            android:name=".data.model.Exercise"
+            android:exported="false"
+            android:label="@string/title_activity_exercise"
+            android:theme="@style/Theme.WorkoutTrackerApp" />
+        <activity
+            android:name=".data.model.Workout"
+            android:exported="false"
+            android:label="@string/title_activity_workout"
+            android:theme="@style/Theme.WorkoutTrackerApp" />
+        <activity
+            android:name=".ui.theme.navigation.AppNavHost"
+            android:exported="false"
+            android:label="@string/title_activity_app_nav_host"
+            android:theme="@style/Theme.WorkoutTrackerApp" />
+        <activity
+            android:name=".ui.theme.navigation.AppNavigation"
+            android:exported="false"
+            android:label="@string/title_activity_app_navigation"
+            android:theme="@style/Theme.WorkoutTrackerApp" />
+        <activity
+            android:name=".ui.theme.profile.ProfileActivity"
+            android:exported="false"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/Theme.WorkoutTrackerApp" />
+        <activity
+            android:name=".ui.theme.stats.StatisticsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_statistics"
+            android:theme="@style/Theme.WorkoutTrackerApp" />
+        <activity
+            android:name=".ui.theme.history.HistoryActivity"
+            android:exported="false"
+            android:label="@string/title_activity_history"
+            android:theme="@style/Theme.WorkoutTrackerApp" />
+        <activity
+            android:name=".ui.theme.workout.WorkoutSessionActivity"
+            android:exported="false"
+            android:label="@string/title_activity_workout_session"
+            android:theme="@style/Theme.WorkoutTrackerApp" />
+        <activity
+            android:name=".ui.theme.workout.AddWorkoutActivity"
+            android:exported="false"
+            android:label="@string/title_activity_add_workout"
+            android:theme="@style/Theme.WorkoutTrackerApp" />
+        <activity
+            android:name=".ui.theme.workout.WorkoutDetailActivity"
+            android:exported="false"
+            android:label="@string/title_activity_workout_detail"
+            android:theme="@style/Theme.WorkoutTrackerApp" />
+        <activity
+            android:name=".ui.theme.workout.WorkoutListActivity"
+            android:exported="false"
+            android:label="@string/title_activity_workout_list"
+            android:theme="@style/Theme.WorkoutTrackerApp" />
+        <activity
+            android:name=".ui.theme.home.HomeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.WorkoutTrackerApp" />
+        <activity
+            android:name=".ui.theme.auth.RegisterActivity"
+            android:exported="false"
+            android:label="@string/title_activity_register"
+            android:theme="@style/Theme.WorkoutTrackerApp" />
+        <activity
+            android:name=".ui.theme.auth.LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.WorkoutTrackerApp" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.WorkoutTrackerApp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
